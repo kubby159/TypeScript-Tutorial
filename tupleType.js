@@ -1,3 +1,4 @@
+"use strict";
 var __spreadArray = (this && this.__spreadArray) || function (to, from, pack) {
     if (pack || arguments.length === 2) for (var i = 0, l = from.length, ar; i < l; i++) {
         if (ar || !(i in from)) {
@@ -7,6 +8,9 @@ var __spreadArray = (this && this.__spreadArray) || function (to, from, pack) {
     }
     return to.concat(ar || Array.prototype.slice.call(from));
 };
+Object.defineProperty(exports, "__esModule", { value: true });
+//global 변수 적용
+var b = "kim";
 // array 자료에 붙일 수 있는 tuple type
 //데이터의 위치와 타입을 지정하고 싶을 때 사용한다.
 // ? 은 옵션을 표현함. 단, 데이터의 중간부분말고 맨 끝에서 사용해야한다. 그렇지않으면 순서가 모호해짐.
