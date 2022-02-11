@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
     "target": "ES5",
-    "module": "commonjs"
+    "module": "commonjs",
+    "typeRoots": ["./types"] //글로벌하게 이용이 가능해짐.
   }
 }

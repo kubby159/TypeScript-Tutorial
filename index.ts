@@ -7,3 +7,4 @@ namespace DogName2 {
 
 let dog: DogName.name = "bark";
 let dog2: DogName2.name = "Paw";
+let dog3: Age = 30;
